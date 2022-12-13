@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matilda's picnic</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Container">
+                <div class="logo">
+                    <h1>MP</h1>
+                    <b>Matilda's picnic</b>
+                    
+                </div>
+                <div class="BarraDePesquisa">
+                    <span class="material-icons"> search </span>
+                    <input type="search" placeholder="buscar por eventos">
+                </div>
+                <div class="Criar">
+                    <label class="btn btn-primary" btnfor="create-post">criar evento</label>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!--=====================main=====================-->
+    <main>
+        <div class="Container" id="conteudo">
+            <!--=====================left=====================-->
+            <div class=" left">
+
+                <a class="Perfil">
+                    <div class="fotoPerfil">
+                        <img src="images/fotoperfil.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>Matheus Alves</h4>
+                        <p class="text-muted">
+                            @Matilda
+                        </p>
+                    </div>
+                </a>
+
+                <!--=====================SideBar=====================-->
+                <div class="sidebar">
+                    <a class="menu-item active" id="inicio">
+                        <span class="material-icons"> home </span>
+                        <h3>Inicio</h3>
+                    </a>
+                    <a class="menu-item" id="explorar">
+                        <span class="material-icons"> explore </span>
+                        <h3>Explorar</h3>
+                    </a>
+                    <a class="menu-item noti" id="notifications">
+                        <span>
+                            <span class="material-icons" id="notifications"> notifications </span>
+                            <small class="notifications-count">3+</small>
+                        </span>
+                        <h3>Notificaçoes</h3>
+                        <div class="notification-popup">
+                            <div>
+                                <div class="fotoPerfil">
+                                    <img src="images/fotoperfil2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Alberto Alves</b> aceitou sua solicitaçao de amizade
+                                    <small class="text-muted">2 horas atrás</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fotoPerfil">
+                                    <img src="images/fotoperfil3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Menino Miseravi</b> comentou na sua publicaçao
+                                    <small class="text-muted">2 dias atrás</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fotoPerfil">
+                                    <img src="images/fotoperfil3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Matilda </b> e <b>289</b> outras pessolas curtiram
+                                    <small class="text-muted">2 horas atrás</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    </a>
+                    <a class="menu-item noti" id="messagens-notifications">
+                        <span>
+                            <span class="material-icons"> question_answer</span>
+                            <small class="notifications-count">6+</small>
+                        </span>
+                        <h3>Mensagens</h3>
+                    </a>
+
+
+                    <a class="menu-item" id="theme">
+                        <span class="material-icons"> palette </span>
+                        <h3>Tema</h3>
+                    </a>
+                    <a class="menu-item" id="perfilMI">
+                        <span class="material-icons"> person </span>
+                        <h3>Perfil</h3>
+                    </a>
+                </div>
+                <!--=====================sidebar-final=====================-->
+
+
+                <label for="create-post" class="btn btn-primary">criar post</label>
+            </div>
+            <!--=====================left-final=====================-->
+
+            <!--=====================middle=====================-->
+            <div class="middle">
+
+            </div>
+            <!--=====================middle-final=====================-->
+
+            <!--=====================right=====================-->
+            <div class="right">
+                <!--=====================messages=====================-->
+
+                <!--=====================right-final=====================-->
+            </div>
+    </main>
+    <div class="tema">
+        <div class="card">
+            <h2>Customize seu perfil</h2>
+
+            <p class="text-muted">Mude o tamnho da fonte, cor e fundo</p>
+            <!--=====================font-size=====================-->
+            <div class="font-size">
+                <h4>Tamanho da fonte</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!--=====================color=====================-->
+            <div class="color">
+                <h4>color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!--=====================background=====================-->
+
+            <div class="background">
+                <h4>Fundo</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Dark</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary fechar" id="fecharTema">fechar</button>
+        </div>
+    </div>
+
+    <div class="criar-evento">
+
+        <div class="CEcard">
+            <div class="botoes">
+                <button class="btn btn-primary fechar" id="fecharCE"><span class="material-icons close">
+                        close
+                    </span>
+                </button>
+            </div>
+            <div class="formDiv">
+                <form>
+                    <div class="inpCriarEventos">
+                        <h4>Nome Do Evento</h4>
+                        <div>
+                            <input type="text" name="NomeDoEvento" placeholder="Nome Do Evento">
+                        </div>
+                        <h4>Data:</h4>
+                        <div>
+                            <input type="date" name="Data" placeholder="Data">
+                        </div>
+                        <h4>Local:</h4>
+                        <div>
+                            <input type="text" name="local" placeholder="Local">
+                        </div>
+                        <h4>Começa às: </h4>
+                        <div>
+                            <input type="time" name="HorarioI">
+                        </div>
+
+                        <h4>Escolha uma foto para o convite</h4>
+                        <div>
+                            <input type="file" accept="imagem/*" id="imagemEvento">
+                        </div>
+                    </div>
+
+                </form>
+                <div class="botoes">
+                    <button class="btn btn-primary fechar" id="adicionar-descriçao">+ Descriçao</button>
+                    <button class="btn btn-primary CEchek">criar</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="addDescContainer">
+            <h4>Adicionar descriçao:</h4>
+            <div class="addDesc">
+               <textarea name="desc" id="TAdesc" cols="30" rows="10"></textarea>
+            </div>
+            <span class="material-icons btn btn-primary">
+                add
+            </span>
+        </div>
+    </div>
+
+
+    <div class="criar-public">
+        <div class="CPcard">
+            <div class="botoes">
+                <button class="btn btn-primary fechar" id="fecharCP"><span class="material-icons close">
+                        close
+                    </span>
+            </div>
+            <form action="GET">
+                <h4>Escolha uma imagem ou um video:</h4>
+                <div class="CPimg">
+                    <input type="file" name="CPimg">
+                </div>
+                <h4>Adicione um comentário á sua postagem:</h4>
+                <div class="CPcomentario">
+                   <textarea name="publi" id="TApubli" cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="Publicar" value="Publicar" id="btnSubmit" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="exibirFotoPerfil">
+        <div class="EFPcard">
+            <div class="EFPfoto">
+                <img src="">
+            </div>
+            <div class="EFPcomentarios">
+                <div class="head">
+                    <div class="user">
+                        <div class="EPFfotoPerfil fotoPerfil">
+                            <img src="">
+                        </div>
+                        <div class="EFPinfo">
+                            <h3></h3>
+                        </div>
+                    </div>
+                    <div class="fecharEFP">
+                        <button class="btn btn-primary" id="fecharEFP"><span class="material-icons close">
+                                close
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="EFPCbody">
+                        <div class="comments">
+                            <div class="users">
+                                <div class="fotoPerfil">
+                                    <img src="images/fotoperfil3.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <h3>Joaquin</h3>
+                                </div>
+                                <div class="comment"><span>blablabla</span></div>
+                                <div class="like"><span class="material-icons">
+                                        favorite_border
+                                    </span></div>
+                            </div>
+                            <div class="usersActions">
+                                <span>4 sem</span> <span>responder</span>
+                            </div>
+                        </div>
+                        <div class="comments">
+                            <div class="users">
+                                <div class="fotoPerfil">
+                                    <img src="images/fotoperfil3.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <h3>Joaquin</h3>
+                                </div>
+                                <div class="comment"><span>blablabla</span></div>
+                                <div class="like"><span class="material-icons">
+                                        favorite_border
+                                    </span></div>
+                            </div>
+                            <div class="usersActions">
+                                <span>4 sem</span> <span>responder</span>
+                            </div>
+                        </div>
+                        <div class="comments">
+                            <div class="users">
+                                <div class="fotoPerfil">
+                                    <img src="images/fotoperfil3.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <h3>Joaquin</h3>
+                                </div>
+                                <div class="comment"><span>blablabla</span></div>
+                                <div class="like"><span class="material-icons">
+                                        favorite_border
+                                    </span></div>
+                            </div>
+                            <div class="usersActions">
+                                <span>4 sem</span> <span>responder</span>
+                            </div>
+                        </div>
+                        <div class="comments">
+                            <div class="users">
+                                <div class="fotoPerfil">
+                                    <img src="images/fotoperfil3.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                    <h3>Joaquin</h3>
+                                </div>
+                                <div class="comment"><span>blablabla</span></div>
+                                <div class="like"><span class="material-icons">
+                                        favorite_border
+                                    </span></div>
+                            </div>
+                            <div class="usersActions">
+                                <span>4 sem</span> <span>responder</span>
+                            </div>
+                        </div>
+                        <div class="likedby">
+
+                            <span><img src="images/fotoperfil2.jpg"></span>
+
+
+                            <span><img src="images/fotoperfil2.jpg"></span>
+
+
+                            <span><img src="images/fotoperfil2.jpg"></span>
+
+
+                            <p>Curtido por <b>Menino Miseravi</b> e <b>Outros 200</b></p>
+
+                        </div>
+                        <div class="usersReactions">
+                            <div class="caption">
+                                <p><b>Alberto Alves comentou:</b> que isso meu fio calma. <span class="hash-tag">
+                                        #CAVALO</span></p>
+                            </div>
+                            <div class="comments text-muted">
+                                Ver todos os 263 comentários
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+     </div>
+
+
+     
+
+        <script src="perfil.js"></script>
+        <script src="index.js"></script>
+        <script src="tema.js"></script>
+        <script src="menssagens.js"></script>
+        <script src="notificaçoes.js"></script>
+        <script src="explorar.js"></script>
+        <script src="inicio.js"></script>
+        <script src="criarEvento.js"></script>
+        <script src="funçoes.js"></script>
+</body>
+
+</html>

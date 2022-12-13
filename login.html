@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Matilda's Picnic Login</title>
+</head>
+<body id="loginBody">
+    <header>
+        <nav>
+            <div class="Container">
+                <div class="logo" id="logo">
+                    <h1>MP</h1>
+                    <b>Matilda's picnic</b>
+                </div>
+               
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div class="formLogin">
+        <form action="" id="loginForm" >
+            <h3>Fazer login</h3>
+            <span class="material-icons" id="emailIcon">
+                email
+                </span>
+            <input type="text" name="e-mail" placeholder="        Seu e-mail" id="email" required>
+            <span class="material-icons" id="passwordIcon">
+                lock
+                </span>
+            <input type="password" id="password" name="senha" placeholder="        Sua senha" required>
+            <div class="materConectado">
+                <input type="checkbox" id="manterConectado" name="manterConectado">
+                <small>Manter conectado</small>
+            </div>
+            <a href="" class="btnLoginSubmit" id="loginButton">Entrar</a>
+        </form>
+        <div class="esqueceuSenha">
+            <a href="">esqueceu a senha?</a>
+        </div>
+        
+        <div class="criarConta">
+            <small>Ainda nao tem uma conta?</small>
+            <a href="" id="criarConta">Cadastre-se</a>
+        </div>
+    </div>
+
+<script src="login.js"></script>
+<script src="cadastro.js"></script>
+</body>
+</html>
